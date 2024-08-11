@@ -10,7 +10,7 @@ This is a simple Tic Tac Toe game implemented using Python and Pygame. The game 
 - **Player vs. Computer**: The game allows you to play against the computer. The computer uses a minimax algorithm to make optimal moves.
 - **Interactive UI**: The game uses Pygame to create a visually appealing and interactive user interface.
 - **Win Detection**: The game automatically detects when a player wins or if there's a tie, and displays the result.
-- **Dark Theme**: The game features a dark, iOS-themed color scheme for an aesthetically pleasing experience.
+ 
 
 ## Requirements
 
