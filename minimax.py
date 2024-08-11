@@ -60,27 +60,7 @@ def check_tie():
         return True
     else:
         return False
-def check_win_and_drawlines(player):
-     
-    for col in range(BOARD_COLS):
-        if board[0][col] == player and board[1][col] == player and board[2][col] == player:
-            pygame.draw.line(screen, (255,255,255), ((col+1)*100 -50, 5), ((col+1)*100 -50, 295), LINE_WIDTH)
-            return True
  
-    for row in range(BOARD_ROWS):
-        if board[row][0] == player and board[row][1] == player and board[row][2] == player:
-            pygame.draw.line(screen, (255,255,255), (5,(row+1)*100 -50), (295,(row+1)*100 -50), LINE_WIDTH)
-            return True
-
-     
-    if board[2][0] == player and board[1][1] == player and board[0][2] == player:
-        pygame.draw.lines(screen, (255,255,255), True, [(0,295),(295,0)],LINE_WIDTH)
-        return True
-
-   
-    if board[0][0] == player and board[1][1] == player and board[2][2] == player:
-        pygame.draw.lines(screen, (255,255,255), True, [(5,5),(295,295)], LINE_WIDTH)
-        return True
 
 def check_win(player):
      
