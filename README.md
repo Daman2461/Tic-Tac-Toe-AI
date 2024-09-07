@@ -52,6 +52,4 @@ This is a simple Tic Tac Toe game implemented using Python and Pygame. The game 
   - `minimax(board, ismaxi)`: Implements the minimax algorithm for the computer's AI.
   - `computer_turn()`: Handles the computer's move.
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
